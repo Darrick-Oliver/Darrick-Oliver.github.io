@@ -1,0 +1,28 @@
+body {
+  background: #060b14;
+  overflow: hidden;
+
+  font-family: "Helvetica Neue", "Open Sans";
+  color: white;
+  font-weight: 100;
+
+  padding: 20px;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title h1 {
+  font-size: 100px;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently */
+}
